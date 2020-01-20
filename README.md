@@ -1,1 +1,1 @@
-# react-geekb-ss
+# Salaev Sergey
