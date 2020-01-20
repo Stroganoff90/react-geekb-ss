@@ -1,1 +1,1 @@
-# Salaev Sergey
+# react_gb_ss
