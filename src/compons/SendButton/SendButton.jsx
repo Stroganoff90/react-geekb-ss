@@ -1,21 +1,5 @@
-import React from "react";
+// import React from "react";
 
-class SendButton extends React.Component {
-  // state = {
 
-  // }
 
-  // answerRichard() {
-  //   return messages.push()
-  // }
-
-  render() {
-    return (
-      <button onClick={this.answerRichard}>
-        PUSH
-      </button>
-    );
-  }
-}
-
-export default SendButton;
+// export default SendButton;
