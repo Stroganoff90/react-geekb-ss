@@ -5,10 +5,6 @@ import ReactDom from "react-dom";
 // import SendButton from ".App/compons/SendButton/SendButton";
 // import InputField from ".App/compons/InputField/InputField";
 
-// componentDidMount() {
-//   console.log();
-// }
-
 const Message = ({ name, content }) => <div><strong>{name}:</strong> {content}</div>;
 
 const messages = [
@@ -21,14 +17,14 @@ class MessageField extends React.Component {
   }
 
   // state() {
-  //   messages: messages
+  //   messages: null;
   // }
   
-  componentDidUpdate(messages) {
-    if (this.messages !== messages) {
-      this.setState(this.messages)
-    }
-  }
+  // componentDidUpdate(messages) {
+  //   if (this.messages !== messages) {
+  //     this.setState(this.messages)
+  //   }
+  // }
 
   render() {
     return messages.map((message, index) => <Message {...message} key={index} />)
@@ -48,6 +44,7 @@ class InputField extends React.Component {
 class SendButton extends React.Component {
   answerRichard() {
     console.log('4pok');
+    console.log(messages);
     return messages.push({name: "Jacket", content: "..."})
   }
 
